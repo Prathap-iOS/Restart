@@ -16,6 +16,7 @@
 		301190CE2AB4947B00C5615D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301190CD2AB4947B00C5615D /* ContentView.swift */; };
 		301190D02AB4947D00C5615D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301190CF2AB4947D00C5615D /* Assets.xcassets */; };
 		301190D32AB4947D00C5615D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301190D22AB4947D00C5615D /* Preview Assets.xcassets */; };
+		30F958E52AB6C7C1004A339D /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F958E42AB6C7C1004A339D /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		301190CD2AB4947B00C5615D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		301190CF2AB4947D00C5615D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301190D22AB4947D00C5615D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30F958E42AB6C7C1004A339D /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		300C3A892AB61D1C00E7F341 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				30F958E42AB6C7C1004A339D /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				300C3A8E2AB61F1F00E7F341 /* HomeView.swift in Sources */,
 				301190CE2AB4947B00C5615D /* ContentView.swift in Sources */,
 				301190CC2AB4947B00C5615D /* RestartApp.swift in Sources */,
+				30F958E52AB6C7C1004A339D /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
